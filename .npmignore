@@ -1,0 +1,11 @@
+README.md
+Makefile
+doc/
+examples/
+test/
+
+.npmignore
+node_modules/
+npm-debug.log
+
+.git*
