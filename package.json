@@ -1,0 +1,33 @@
+{
+    "name": "passport-cloudsdale",
+    "version": "0.0.1",
+    "description": "Cloudsale authentication strategy for Passport.",
+    "keywords": ["passport", "auth", "authn", "authentication", "identity"],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/scan/passport-cloudsdale.git"
+    },
+    "bugs": {
+        "url": "http://github.com/scan/passport-cloudsdale/issues"
+    },
+    "author": {
+        "name": "Tom Streller",
+        "email": "lambdadusk@gmail.com",
+    },
+    "licenses": [ {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/MIT" 
+    } ],
+    "main": "./lib/passport-cloudsdale",
+    "dependencies": {
+        "pkginfo": "0.2.x",
+        "passport-oauth2": "0.1.x"
+    },
+    "devDependencies": {
+        "vows": "0.6.x"
+    },
+    "scripts": {
+        "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+    },
+    "engines": { "node": ">= 0.4.0" }
+}
